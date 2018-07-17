@@ -1,19 +1,14 @@
 # git book
 
-git book 采用markdown方式编写文档,本文采用github管理文档，在本地编辑文档提交到github并同步到gitbook。
+git book是制作电子书的利器。
 
-* github.com
+采用markdown方式编写文档,支持在github上管理。
 
-1.     注册github账户
+支持输出多种文档格式。
 
-1.  登录github
+友好的编辑界面，提供GitBook editor 图形界面编辑。
 
-1.  创建仓库
-
-* gitbook.com
-  使用github账户登录gitbook
-  创建organization
-  organization
+参考：[https://www.jianshu.com/p/b5148bcb6e71](https://www.jianshu.com/p/b5148bcb6e71 "https://www.jianshu.com/p/b5148bcb6e71")
 
 
 
