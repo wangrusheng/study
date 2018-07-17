@@ -20,7 +20,5 @@ git book是制作电子书的利器。
 
 [gitbook editor 下载](https://legacy.gitbook.com/editor)
 
-test
-
 注：选择老版本登录[legacy.gitbook.com](/legacy.gitbook.com)
 
