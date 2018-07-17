@@ -14,5 +14,11 @@ git book是制作电子书的利器。
 
 [利用 Gitbook 生成文档中心站点](https://www.jianshu.com/p/f9f9ca86ef22)
 
+[Gitbook快速简明教程](https://www.awaimai.com/1273.html)
+
+[help.gitbook.com/](https://help.gitbook.com/)
+
+[gitbook editor 下载](https://legacy.gitbook.com/editor)
+
 注：选择老版本登录[legacy.gitbook.com](/legacy.gitbook.com)
 
