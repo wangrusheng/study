@@ -47,5 +47,12 @@ docker run -d -p [本机端口]:[docker服务器端口] --name container-name im
 docker run --name test-redis -d redis #运行redis
 ```
 
+容器列表
+
+```
+docker ps #运行状态的容器
+docker ps -a #运行和停止状态的容器
+```
+
 
 
