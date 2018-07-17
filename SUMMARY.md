@@ -2,7 +2,7 @@
 
 
 * [前言](README.md)
-* [修订记录](CHANGELOG.md)
+* [gitbook](gitbook/gitbook.md)
 * [如何贡献](CONTRIBUTING.md)
 * [Docker 简介](introduction/README.md)
     * [什么是 Docker](introduction/what.md)
