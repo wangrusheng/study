@@ -1,10 +1,12 @@
 # Docker基本命令
 
-启动Docker
+## 启动Docker
 
 ```
 service docker start
 ```
+
+## Docker镜像命令
 
 Docker镜像检索
 
@@ -21,6 +23,28 @@ docker search redis  #查找redis
 docker pull 镜像名
 docker pull redis #下载redis镜像,默认版本为latest
 docker pull redis:3.0.7 #下载指定版本的镜像
+```
+
+镜像列表
+
+```
+docker images
+```
+
+镜像删除
+
+```
+docker rmi image-id #删除指定镜像
+docker rmi $(docker images -q) #删除所有对象
+```
+
+## Docker容器命令
+
+运行镜像为容器的命令
+
+```
+docker run -d -p [本机端口]:[docker服务器端口] --name container-name image-name
+docker run --name test-redis -d redis #运行redis
 ```
 
 
