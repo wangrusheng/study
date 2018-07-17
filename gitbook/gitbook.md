@@ -1,6 +1,6 @@
-# git book
+# Gitbook
 
-git book是制作电子书的利器。
+GitBook是制作电子书的利器。
 
 采用markdown方式编写文档,支持在github上管理。
 
