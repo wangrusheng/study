@@ -50,11 +50,10 @@ docker run --name test-redis -d redis #运行redis
 端口映射
 
 ```
-docker run -d -p 6378:6379 --name port-redis redis #端口映射是通过一个-p参数来实现
+docker run -d -p 6378:6379 --name port-redis redis 
+#端口映射是通过一个-p参数来实现
 docker run -d -p 5672:5672 -p 15672:15672 --name rabbitmq rabbitmq #映射多个端口就多设置一个-p参数
 ```
-
-
 
 容器列表
 
@@ -74,11 +73,24 @@ docker start test-redis
  #启动名为[test-redis]的容器
 ```
 
-### 删除容器
+删除容器
 
 ```
 docker rm container-id #删除单个容器
 docker rm $(docker ps -a -q)  #删除所有容器
+```
+
+容器日志
+
+```
+docker logs port-redis #查看单个容器
+docker logs port-redis　| less #翻页查看,【| less】模式下：回车键翻页，q键退出
+```
+
+登录容器
+
+```
+docker exec -it container-id/container-name bash #登录后可以在容器中进行常规的Linux系统操作命令，还可以使用exit命令退出
 ```
 
 
