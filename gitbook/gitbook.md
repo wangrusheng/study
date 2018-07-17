@@ -16,6 +16,8 @@ git book是制作电子书的利器。
 
 [Gitbook快速简明教程](https://www.awaimai.com/1273.html)
 
+[GitBook 简明教程](http://www.chengweiyang.cn/gitbook/)
+
 [help.gitbook.com/](https://help.gitbook.com/)
 
 [gitbook editor 下载](https://legacy.gitbook.com/editor)
