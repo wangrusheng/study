@@ -54,5 +54,20 @@ docker ps #运行状态的容器
 docker ps -a #运行和停止状态的容器
 ```
 
+停止和启动容器
+
+```
+docker stop container-name/container-id
+docker stop test-redis #停止名为[test-redis]的容器
+docker start container-name/container-id
+docker start test-redis #启动名为[test-redis]的容器
+```
+
+
+
+
+
+
+
 
 
