@@ -47,6 +47,15 @@ docker run -d -p [本机端口]:[docker服务器端口] --name container-name im
 docker run --name test-redis -d redis #运行redis
 ```
 
+端口映射
+
+```
+docker run -d -p 6378:6379 --name port-redis redis #端口映射是通过一个-p参数来实现
+docker run -d -p 5672:5672 -p 15672:15672 --name rabbitmq rabbitmq #映射多个端口就多设置一个-p参数
+```
+
+
+
 容器列表
 
 ```
@@ -58,14 +67,19 @@ docker ps -a #运行和停止状态的容器
 
 ```
 docker stop container-name/container-id
-docker stop test-redis #停止名为[test-redis]的容器
+docker stop test-redis 
+#停止名为[test-redis]的容器
 docker start container-name/container-id
-docker start test-redis #启动名为[test-redis]的容器
+docker start test-redis
+ #启动名为[test-redis]的容器
 ```
 
+### 删除容器
 
-
-
+```
+docker rm container-id #删除单个容器
+docker rm $(docker ps -a -q)  #删除所有容器
+```
 
 
 
