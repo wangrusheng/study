@@ -8,7 +8,11 @@ git book是制作电子书的利器。
 
 友好的编辑界面，提供GitBook editor 图形界面编辑。
 
-参考：[GitBook从看懂到看开](https://www.jianshu.com/p/b5148bcb6e71)
+参考：
+
+[GitBook从看懂到看开](https://www.jianshu.com/p/b5148bcb6e71)
+
+[利用 Gitbook 生成文档中心站点](https://www.jianshu.com/p/f9f9ca86ef22)
 
 注：选择老版本登录[legacy.gitbook.com](/legacy.gitbook.com)
 
