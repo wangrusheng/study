@@ -11,4 +11,8 @@ redis4.0 远程访问
 [http://www.cnblogs.com/bigben0123/p/8880940.html](http://www.cnblogs.com/bigben0123/p/8880940.html)
 
 https://www.cnblogs.com/trydoit/p/7129039.html
+[docker-compose](docker/redis.conf)
+
+
+
 
