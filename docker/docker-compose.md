@@ -1,5 +1,18 @@
 # docker-compose
 
+目录结构
+
+```
+customServer
+|--mysql
+|--mysql
+|--mysql
+|--mysql
+|--mysql
+
+
+```
+
 --link
 
 域名邮箱
@@ -10,9 +23,5 @@ redis4.0 远程访问
 
 [http://www.cnblogs.com/bigben0123/p/8880940.html](http://www.cnblogs.com/bigben0123/p/8880940.html)
 
-https://www.cnblogs.com/trydoit/p/7129039.html
-[redis.conf](redis.conf)
-
-
-
+[https://www.cnblogs.com/trydoit/p/7129039.html](https://www.cnblogs.com/trydoit/p/7129039.html)
 
