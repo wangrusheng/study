@@ -11,4 +11,5 @@
   * [基本概念](dicom/dicom/ji-ben-gai-nian.md)
 * [fastdfs](fastdfs/fastdfs.md)
 * [keepalived](keepalived/keepalived.md)
+  * [Linux高可用之Keepalived](keepalived/linuxgao-keyong-zhi-keepalived.md)
 

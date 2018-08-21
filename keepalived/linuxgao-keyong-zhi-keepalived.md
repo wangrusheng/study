@@ -1,0 +1,3 @@
+# 搭建LVS
+
+[Linux高可用之Keepalived](https://www.jianshu.com/p/b050d8861fc1)
