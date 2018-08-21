@@ -22,6 +22,33 @@ ip addr del 192.168.175.xx dev ethXX
 #重启
 service network restart
 ```
+* keepalive
+```
+yum -y install keepalived ipvsadm 
+vi /etc/keepalived/keepalived.conf
+systemctl start keepalived
+ip a l ech0
+systemctl stop keepalived
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
