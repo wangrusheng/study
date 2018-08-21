@@ -31,6 +31,8 @@ ip a l ech0
 systemctl stop keepalived
 #关闭防火墙
 systemctl stop firewalld.service
+#循环访问
+for i in `seq 10`;do curl 192.168.175.100;done
 
 ```
 
