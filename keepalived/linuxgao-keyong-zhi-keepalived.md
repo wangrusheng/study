@@ -9,7 +9,6 @@ backup(192.168.175.129)
 rs01(192.168.175.130)
 rs02(192.168.175.131)
 
-
 ```
 #修改hostname
 hostnamectl set-hostname master
