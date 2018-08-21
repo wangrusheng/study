@@ -29,6 +29,8 @@ vi /etc/keepalived/keepalived.conf
 systemctl start keepalived
 ip a l ech0
 systemctl stop keepalived
+#关闭防火墙
+systemctl stop firewalld.service
 
 ```
 
