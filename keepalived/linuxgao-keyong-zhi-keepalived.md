@@ -15,6 +15,10 @@ hostnamectl set-hostname master
 #修改ip
 vi /etc/sysconfig/network-scripts/ifcfg-网络接口名称
 IPADDR=192.168.175.130
+#查看ip
+ip addr
+#删除第二个ip
+ip addr del 192.168.175.xx dev ethXX
 #重启
 service network restart
 ```
