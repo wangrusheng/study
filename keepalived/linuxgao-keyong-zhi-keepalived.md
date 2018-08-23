@@ -35,7 +35,7 @@ systemctl stop firewalld.service
 for i in `seq 10`;do curl 192.168.175.100;done
 
 ```
-
+netstat -tulpn
 
 
 
