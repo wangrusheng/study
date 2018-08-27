@@ -4,14 +4,12 @@
 
 ```
 service docker start
-```
-
-## 开机自动启动docker
-
-```
-#centos
+#centos 开机自启动
 systemctl enable docker
+
 ```
+
+
 
 ## Docker镜像命令
 
