@@ -93,11 +93,19 @@ docker logs port-redis　| less #翻页查看,【| less】模式下：回车键�
 docker exec -it container-id/container-name bash #登录后可以在容器中进行常规的Linux系统操作命令，还可以使用exit命令退出
 ```
 
-开机自启动docker
+开机自动启动docker
 ```
 #centos
 systemctl enable docker
 ```
+开机自动启动 docker 容器
+
+```
+ docker run -dit --restart unless-stopped redis
+ #更新已存在容器支持自动启动
+```
+
+
 
 
 参考：[Docker 入门教程](https://blog.csdn.net/xiaolyuh123/article/details/72528860)
