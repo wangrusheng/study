@@ -9,8 +9,6 @@ systemctl enable docker
 
 ```
 
-
-
 ## Docker镜像命令
 
 Docker镜像检索
