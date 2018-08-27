@@ -6,7 +6,7 @@
 service docker start
 ```
 
-开机自动启动docker
+## 开机自动启动docker
 ```
 #centos
 systemctl enable docker
