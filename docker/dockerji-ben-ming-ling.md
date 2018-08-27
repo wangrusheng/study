@@ -103,6 +103,7 @@ systemctl enable docker
 ```
  docker run -dit --restart unless-stopped redis
  #更新已存在容器支持自动启动
+ docker update --restart=always xxx
 ```
 
 
