@@ -13,4 +13,5 @@
 * [keepalived](keepalived/keepalived.md)
   * [Linux高可用之Keepalived](keepalived/linuxgao-keyong-zhi-keepalived.md)
 * [mongo](mongo.md)
+* [linux](linux.md)
 
