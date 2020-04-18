@@ -4,5 +4,5 @@
 
 温故而知新
 
-![study](_images/study.jpg)
+
 
