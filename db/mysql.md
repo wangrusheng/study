@@ -1,6 +1,8 @@
-# Mysql查看连接数
+# mysql
 
-# （连接总数、活跃数、最大并发数）
+## mysql连接数
+
+**（连接总数、活跃数、最大并发数）**
 
 ```sql
 show variables like ``'%max_connection%'``; 查看最大连接数

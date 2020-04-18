@@ -1,13 +1,15 @@
-# 搭建LVS
+# keepalived
+
+## 搭建LVS
 
 [Linux高可用之Keepalived](https://www.jianshu.com/p/b050d8861fc1)
 [Nginx+keepalived双机热备（主从模式）](https://www.cnblogs.com/kevingrace/p/6138185.html)
 
 * 服务器准备(centos7)
-master(192.168.175.128)
-backup(192.168.175.129)
-rs01(192.168.175.130)
-rs02(192.168.175.131)
+  master(192.168.175.128)
+  backup(192.168.175.129)
+  rs01(192.168.175.130)
+  rs02(192.168.175.131)
 
 ```
 #修改hostname
@@ -22,7 +24,9 @@ ip addr del 192.168.175.xx dev ethXX
 #重启
 service network restart
 ```
+
 * keepalive
+
 ```
 yum -y install keepalived ipvsadm 
 vi /etc/keepalived/keepalived.conf
@@ -35,24 +39,16 @@ systemctl stop firewalld.service
 for i in `seq 10`;do curl 192.168.175.100;done
 
 ```
+
 netstat -tulpn
 
+## 参考
 
+[LVS项目介绍](http://www.linuxvirtualserver.org/zh/lvs1.html)  
+[HA（High available）--Heartbeat高可用性集群（双机热备）](https://www.cnblogs.com/wylhome/p/6014628.html)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 术语
+  HA:High Available,双机集群\(HA\)系统简称
 
 
 
