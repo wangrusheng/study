@@ -1,4 +1,4 @@
-# jdk安装和配置
+# jdk的安装和配置
 
 ##  windows
 
