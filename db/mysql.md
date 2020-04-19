@@ -1,5 +1,119 @@
 # mysql
 
+## MySQL8.0安装步骤
+
+**一、下载MySQL8.0**
+
+这个没啥好说的了吧，去官网下好，下下来解压
+
+![img](mysql.assets/677183ba085848829430ec9b4626db3c.png)
+
+**二、设置环境变量**
+
+本不想说明怎么设置环境变量，但是为了广大初学者，还是写详细点
+
+1.打开我的电脑，在计算机上右键，属性（我是win7啊，win10的自己去网上百度下，环境变量在哪里吧）
+
+![img](mysql.assets/07cec6921c9a4a57ab86fbed780221a3.png)
+
+2.点高级系统设置
+
+![img](mysql.assets/bc096bd9fe2b445291e099f801d1258c.png)
+
+3.高级->环境变量
+
+![img](mysql.assets/26c2d8ea2b5a428f908346a5e45ddb4e.png)
+
+4.新建
+
+![img](mysql.assets/a1a023bb3aaf48f49e9cef388087d63c.png)
+
+5.输入你mysql解压出来的目录/bin（我是解压到d盘了），点确定
+
+![img](mysql.assets/da5897068c7f4883b1c8f5f222ff3421.png)
+
+6.编辑Path变量
+
+![img](mysql.assets/669e0ee39cfc47fca68cd62a7845360d.png)
+
+7.将刚才的MYSQL_HOME变量添加进去，点确定（注意在最前面输入的是%MYSQL_HONE%;）
+
+![img](mysql.assets/3f103d409bdf471eb8354f4b8745e43d.png)
+
+这样环境变量就设置好了
+
+**三、在解压目录下，添加my.ini文件**
+
+ 在里面添加如下信息
+
+按 Ctrl+C 复制代码
+
+按 Ctrl+C 复制代码
+
+![img](mysql.assets/c750ab5c499340a081dbceb1b5243a3f.png)
+
+**四、数据库初始化**
+
+按键盘的win+R，输入cmd，打开命令窗口
+
+切换到刚才解压mysql的bin目录下（别问我怎么切换。。）
+
+![img](mysql.assets/98245801e67b48d787456d4a884265f1.png)
+
+自动生成root用户
+
+mysqld --initialize-insecure
+
+![img](mysql.assets/35786e46da244b4880e127a2fc415742.png)
+
+**五、安装**
+
+还在上面的目录下 
+
+安装服务：
+
+mysqld -install
+
+启动服务：
+
+net start mysql
+
+![img](mysql.assets/66a3611f12b644d19f2f822932e20c99.png)
+
+连接mysql
+
+mysql -u root
+
+![img](mysql.assets/feebe7faf40342099c4a949524acd853.png)
+
+OK！到这里就已经启动好了
+
+停止服务
+
+net stop mysql
+
+注意一下，如果需要卸载服务，重新安装，需要将mysql解压目录里的data文件夹里的东西清空
+
+然后输入
+
+mysqld -remove
+
+ **六、更换密码**
+
+刚才安装完，进入mysql是不需要密码的，实际中肯定是不行的，现在要登录mysql后设置密码
+
+首先：ALTER USER 'root'@'localhost' IDENTIFIED BY 'password' PASSWORD EXPIRE NEVER; #修改加密规则 接着：ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456'; #更新一下用户的密码为123456最后：FLUSH PRIVILEGES; #刷新权限 
+
+以后登录就需要输入密码了
+
+![img](mysql.assets/153d8f1095334f7784586af626e56a13.png)
+
+用sqlyog连接
+
+![img](mysql.assets/fcbedd1759d743208cfca8a63348f498.png)
+
+![img](mysql.assets/7fe369aa33a6486db4c7f36cf75de0f5.png)
+
 ## mysql连接数
 
 **（连接总数、活跃数、最大并发数）**
