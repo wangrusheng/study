@@ -30,12 +30,12 @@
 * [linux](linux/linux.md)
   * [linux常用维护命令](linux/linux常用维护命令.md)
   * [linux里source、sh、bash、./有什么区别](linux/linux里source、sh、bash、.有什么区别.md)
-  * [CentOS 初体验三： Yum 安装、卸载软件](linux/CentOS 初体验三： Yum 安装、卸载软件.md)
-  * [linux lrzsz](linux/linux lrzsz.md)
+  * [CentOS初体验三：Yum 安装、卸载软件](linux/CentOS初体验三：Yum 安装、卸载软件.md)
+  * [linuxlrzsz](linux/linuxlrzsz.md)
 * 软件
   * [nginx](soft/nginx/nginx.md)
-    * [CentOS 7.4安装Nginx 1.14.0](soft/nginx/CentOS 7.4安装Nginx 1.14.0.md)
-    * [nginx 解析静态文件](soft/nginx/nginx 解析静态文件.md)
-    * [Nginx 相关介绍(Nginx是什么能干嘛)](soft/nginx/Nginx 相关介绍(Nginx是什么能干嘛).md)
+    * [CentOS7.4安装Nginx 1.14.0](soft/nginx/CentOS7.4安装Nginx1.14.0.md)
+    * [nginx解析静态文件](soft/nginx/nginx解析静态文件.md)
+    * [Nginx相关介绍(Nginx是什么能干嘛)](soft/nginx/Nginx相关介绍(Nginx是什么能干嘛).md)
 * 其他
   * [DICOM](其他/dicom.md)
