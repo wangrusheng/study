@@ -13,7 +13,7 @@
 * 微服务
   * [分布式配置中心](微服务/分布式配置中心.md)
   * [FDFS](微服务/fastdfs.md)
-    * [fastdfs+nginx 开机自启动](微服务/fastdfs+nginx 开机自启动.md)
+    * [fastdfs+nginx开机自启动](微服务/fastdfs+nginx开机自启动.md)
   * ~~[keepalived](微服务/keepalived.md)~~
 * db
   * [mysql](db/mysql.md)
