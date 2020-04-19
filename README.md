@@ -4,13 +4,14 @@
 
 [前言](前言.md)
 
-* 开发环境
+* [开发环境](开发环境/开发环境.md)
   * [jdk的安装和配置](开发环境/jdk的安装和配置.md)
   * [maven安装和配置](开发环境/maven安装和配置.md)
   * [maven上传jar包到远程仓库.md](开发环境/maven上传jar包到远程仓库.md)
   * [idea环境配置](开发环境/[idea环境配置.md)
   * ~~[log4j](开发环境/log4j.md)~~
 * 微服务
+  * [单体应用VS微服务](微服务/单体应用VS微服务.md)
   * [分布式配置中心](微服务/分布式配置中心.md)
   * [FDFS](微服务/fastdfs.md)
     * [fastdfs+nginx开机自启动](微服务/fastdfs+nginx开机自启动.md)
@@ -30,7 +31,7 @@
 * [linux](linux/linux.md)
   * [linux常用维护命令](linux/linux常用维护命令.md)
   * [linux里source、sh、bash、./有什么区别](linux/linux里source、sh、bash、.有什么区别.md)
-  * [CentOS初体验三：Yum 安装、卸载软件](linux/CentOS初体验三：Yum 安装、卸载软件.md)
+  * [CentOS初体验三：Yum安装、卸载软件](linux/CentOS初体验三：Yum安装、卸载软件.md)
   * [linuxlrzsz](linux/linuxlrzsz.md)
 * 软件
   * [nginx](soft/nginx/nginx.md)
