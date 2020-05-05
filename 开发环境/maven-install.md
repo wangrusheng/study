@@ -10,7 +10,7 @@
 
 在CMD命令行中输入echo %JAVA_HOME%，查看JAVA_HOME是否配置。在CMD命令行中输入java -version，查看jdk是否正确安装。
 
-![image-20200402221222615](maven安装与配置.assets/image-20200402221222615.png)
+![image-20200402221222615](maven-install.assets/image-20200402221222615.png)
 
 ### maven下载
 
@@ -18,13 +18,13 @@
 
 2. 选择相应的版本，点击下载。
 
-![image-20200402221521851](maven安装与配置.assets/image-20200402221521851.png)
+![image-20200402221521851](maven-install.assets/image-20200402221521851.png)
 
 ### 解压
 
 将文件解压到D:\soft\apache-maven-3.6.3目录下:
 
-![image-20200402222515160](maven安装与配置.assets/image-20200402222515160.png)
+![image-20200402222515160](maven-install.assets/image-20200402222515160.png)
 
 
 
@@ -39,7 +39,7 @@
 
 运行cmd命令
 
-![image-20200402223212807](maven安装与配置.assets/image-20200402223212807.png)
+![image-20200402223212807](maven-install.assets/image-20200402223212807.png)
 
 ### 配置文件
 
@@ -54,7 +54,7 @@
 mvn clean -X
 ```
 
-![image-20200403103002764](maven安装与配置.assets/image-20200403103002764.png)
+![image-20200403103002764](maven-install.assets/image-20200403103002764.png)
 
 #### settings元素解析
 参考：[Maven全局配置文件settings.xml详解](https://www.cnblogs.com/hongmoshui/p/10762272.html)

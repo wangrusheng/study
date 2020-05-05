@@ -1,6 +1,8 @@
+# nginx-static
+
 原理：
 
-![img](nginx 解析静态文件.assets/image1.png)
+![img](nginx-static.assets/image1.png)
 
  
 
@@ -34,13 +36,13 @@
 
 **（其实如果index与css等文件在同一目录之下，就只配置主页location即可）**
 
-![img](nginx 解析静态文件.assets/image2.png)
+![img](nginx-static.assets/image2.png)
 
-![img](nginx 解析静态文件.assets/image3.png)
+![img](nginx-static.assets/image3.png)
 
 二、
 
-![img](nginx 解析静态文件.assets/image4.png)
+![img](nginx-static.assets/image4.png)
 
 **1：通过 ng 的 conf文件中配置项目的访问地址，然后通过ng访问；**
 
@@ -50,7 +52,7 @@
 
 **例如：**
 
-![img](nginx 解析静态文件.assets/image5.png)
+![img](nginx-static.assets/image5.png)
 
 **当然访问路径可以配置模糊路径：**
 
@@ -67,12 +69,12 @@ location ~ ^/(images|javascript|js|css|flash|media|static)/ { #请求的根文�
 
 这里的location匹配以images等开头的路径。如果文件路径不存在，会提示404错误。例如:http://localhost:80/css/detail.css。会找到E:\svn\web\css\detail.css
 
-![img](nginx 解析静态文件.assets/image6.png)
+![img](nginx-static.assets/image6.png)
 
 可以正常访问到文件。
 
 http://localhost:80/test/test.css。会提示404，虽然存在这个E:\svn\web\test\test.css文件。
 
-![img](nginx 解析静态文件.assets/image7.png)
+![img](nginx-static.assets/image7.png)
 
 **负载均衡-用nginx+keepalive解决单点故障与热备**

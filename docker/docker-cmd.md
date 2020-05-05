@@ -1,5 +1,10 @@
 [toc]
 
+{{toc}} => left aligned toc
+
+
+[^1]: This is a footnote.
+
 # Docker基本命令
 
 ## 启动Docker
@@ -225,3 +230,4 @@ docker exec -it container-id/container-name bash #登录后可以在容器中进
 docker network ls
 
 参考：Docker 入门教程
+

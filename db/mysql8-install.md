@@ -4,7 +4,7 @@
 
 这个没啥好说的了吧，去官网下好，下下来解压
 
-![img](MySQL8.0安装步骤.assets/7bad78e0af1e4665a346a54b66730895.png)
+![img](mysql8-install.assets/7bad78e0af1e4665a346a54b66730895.png)
 
 **二、设置环境变量**
 

@@ -8,11 +8,11 @@
 
 2. 选择要下载的jdk版本
 
-![](jdk的安装和配置.assets/jdk1.png)
+![](jdk-install.assets/jdk1.png)
 
 3. 根据操作系统选择相应的版本，点击下载
 
-![](jdk的安装和配置.assets/jdk2.png)
+![](jdk-install.assets/jdk2.png)
 
 ### 安装
 
@@ -35,7 +35,7 @@
 
 运行cmd命令
 
-![](jdk的安装和配置.assets/image-20200402085206605.png)
+![](jdk-install.assets/image-20200402085206605.png)
 
 
 

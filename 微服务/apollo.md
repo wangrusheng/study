@@ -29,7 +29,7 @@
 
   ​	不过，解决一个问题的同事，往往会诞生很多新的问题，所以微服务化的过程中伴随着很多的挑战，其中一个挑战就是有关服务(应用)配置的。当系统从一个单体应用，被拆分成分布式系统上一个个服务节点后，配置文件也必须跟着迁移(分割)，这样配置就分散了，不仅如此，分撒中还包含着冗余，如下图：
 
-![image-20200406134501849](分布式配置中心.assets/image-20200406134501849.png)
+![image-20200406134501849](apollo.assets/image-20200406134501849.png)
 
 配置中心将配置从应用中剥离出来，统一管理，优雅的解决了配置的动态变更、持久化、运维成本等问题。应用自身既不需要去添加管理配置接口，也不需要自己去实现配置的持久化，更不需要引入"定时任务"以便降低运维成本。
 
@@ -37,7 +37,7 @@
 
 ​		在系统架构中，配置中心是整个微服务基础架构体系的一个组件，如下图，它的功能看上去并不起眼，无非就是配置的管理和存取，但它是整个微服务架构中不可或缺的一环。
 
-![image-20200406135209041](分布式配置中心.assets/image-20200406135209041.png)
+![image-20200406135209041](apollo.assets/image-20200406135209041.png)
 
 ​		集中管理配置，那么就要将应用的配置作为一个单独的服务抽离出来了，同理也需要解决新的问题，比如：版本管理(为了支持回滚)，权限管理等。
 
@@ -134,13 +134,13 @@ Apollo包括服务端和客户端两部分：
 2. 配置中心通知Apollo客户端有配置更新
 3. Apollo客户端从配置中心拉取最新的配置、更新本地配置并通知到应用
 
-![basic-architecture](分布式配置中心.assets/basic-architecture.png)
+![basic-architecture](apollo.assets/basic-architecture.png)
 
 
 
 ### 客户端设计
 
-![client-architecture](分布式配置中心.assets/client-architecture.png)
+![client-architecture](apollo.assets/client-architecture.png)
 
 ### Apollo核心概念
 
@@ -156,11 +156,11 @@ Apollo包括服务端和客户端两部分：
 
 #### 架构视图1
 
-![overall-architecture](分布式配置中心.assets/overall-architecture.png)
+![overall-architecture](apollo.assets/overall-architecture.png)
 
 #### 架构视图2
 
-![image-20200412174119803](分布式配置中心.assets/image-20200412174119803.png)
+![image-20200412174119803](apollo.assets/image-20200412174119803.png)
 
 ### Apollo安装过程
 
