@@ -1,4 +1,4 @@
-# nginx-static
+# nginx 静态文件
 
 原理：
 

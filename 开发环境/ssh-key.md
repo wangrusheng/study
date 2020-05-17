@@ -51,3 +51,8 @@
 输入ssh -T git@gitub.com，如图，说明已经完成。
 
 ![img](ssh-key.assets/69e35737fe2a43fda39c451550023527.jpeg)
+
+## 参考
+
+[GitLab配置ssh key](https://www.cnblogs.com/hafiz/p/8146324.html)
+

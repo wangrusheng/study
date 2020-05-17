@@ -36,19 +36,19 @@ show engines;
 
 federated引擎默认是关闭的
 
-![image-20200426072515986](Untitled.assets/image-20200426072515986.png)
+![image-20200505154426491](mysql-data-copy.assets/image-20200505154426491.png)
 
 ### 启用FEDERATED引擎
 
 #### mysql安装目录下找到**my.ini**并编辑，在[mysqld] 下加上**federated**
 
-![image-20200426073342069](Untitled.assets/image-20200426073342069.png)
+![image-20200505154517039](mysql-data-copy.assets/image-20200505154517039.png)
 
 #### 重启mysql
 
 [运行]services.msc ,在服务中重新启动mysql服务，再查看引擎
 
-![image-20200426073937512](Untitled.assets/image-20200426073937512.png)
+![image-20200505154706488](mysql-data-copy.assets/image-20200505154706488.png)
 
 #### 查看源表结构
 

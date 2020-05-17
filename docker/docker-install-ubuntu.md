@@ -37,3 +37,6 @@ $ sudo apt install docker-ce
 
 1. $ docker --version
 2. Docker version 18.03.0-ce, build 0520e24
+
+
+

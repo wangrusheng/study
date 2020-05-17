@@ -12,31 +12,31 @@
 
 1.打开我的电脑，在计算机上右键，属性（我是win7啊，win10的自己去网上百度下，环境变量在哪里吧）
 
-![img](MySQL8.0安装步骤.assets/e3dd46f9df4a47a3964e8c0f3eea802d.png)
+![img](mysql8-install.assets/e3dd46f9df4a47a3964e8c0f3eea802d.png)
 
 2.点高级系统设置
 
-![img](MySQL8.0安装步骤.assets/a3490cf93ad44c8f800355786486123c.png)
+![img](mysql8-install.assets/a3490cf93ad44c8f800355786486123c.png)
 
 3.高级->环境变量
 
-![img](MySQL8.0安装步骤.assets/6fd4cffefcf347418b77843bcf8406e1.png)
+![img](mysql8-install.assets/6fd4cffefcf347418b77843bcf8406e1.png)
 
 4.新建
 
-![img](MySQL8.0安装步骤.assets/9447e44f890b4b669c14c6d7589ff930.png)
+![img](mysql8-install.assets/9447e44f890b4b669c14c6d7589ff930.png)
 
 5.输入你mysql解压出来的目录/bin（我是解压到d盘了），点确定
 
-![img](MySQL8.0安装步骤.assets/93e96b8d128f4f23896f4358053a73f6.png)
+![img](mysql8-install.assets/93e96b8d128f4f23896f4358053a73f6.png)
 
 6.编辑Path变量
 
-![img](MySQL8.0安装步骤.assets/6d610449fe9846289b25c9e60a7a2c7a.png)
+![img](mysql8-install.assets/6d610449fe9846289b25c9e60a7a2c7a.png)
 
 7.将刚才的MYSQL_HOME变量添加进去，点确定（注意在最前面输入的是%MYSQL_HONE%;）
 
-![img](MySQL8.0安装步骤.assets/012b6f60d5e94ce3a2357f2872978c75.png)
+![img](mysql8-install.assets/012b6f60d5e94ce3a2357f2872978c75.png)
 
 这样环境变量就设置好了
 
@@ -48,7 +48,7 @@
 
 按 Ctrl+C 复制代码
 
-![img](MySQL8.0安装步骤.assets/a28cc1fcdf8c47318339f9b69e0d536d.png)
+![img](mysql8-install.assets/a28cc1fcdf8c47318339f9b69e0d536d.png)
 
 **四、数据库初始化**
 
@@ -56,13 +56,13 @@
 
 切换到刚才解压mysql的bin目录下（别问我怎么切换。。）
 
-![img](MySQL8.0安装步骤.assets/a70a5d36afcd4a61acc30c013e7963f7.png)
+![img](mysql8-install.assets/a70a5d36afcd4a61acc30c013e7963f7.png)
 
 自动生成root用户
 
 mysqld --initialize-insecure
 
-![img](MySQL8.0安装步骤.assets/eadd3f761a6544879f4d25e398563678.png)
+![img](mysql8-install.assets/eadd3f761a6544879f4d25e398563678.png)
 
 **五、安装**
 
@@ -76,13 +76,13 @@ mysqld -install
 
 net start mysql
 
-![img](MySQL8.0安装步骤.assets/5a0bbf79f2be4b3aaa5a678b27431ec4.png)
+![img](mysql8-install.assets/5a0bbf79f2be4b3aaa5a678b27431ec4.png)
 
 连接mysql
 
 mysql -u root
 
-![img](MySQL8.0安装步骤.assets/89547f4045184e5c9314d0c00f917b0c.png)
+![img](mysql8-install.assets/89547f4045184e5c9314d0c00f917b0c.png)
 
 OK！到这里就已经启动好了
 
@@ -104,10 +104,10 @@ mysqld -remove
 
 以后登录就需要输入密码了
 
-![img](MySQL8.0安装步骤.assets/ee3b5f8671cd4397be99f53a082ba968.png)
+![img](mysql8-install.assets/ee3b5f8671cd4397be99f53a082ba968.png)
 
 用sqlyog连接
 
-![img](MySQL8.0安装步骤.assets/51b59a1f3b2f4c8ea5ace09c94878bc0.png)
+![img](mysql8-install.assets/51b59a1f3b2f4c8ea5ace09c94878bc0.png)
 
-![img](MySQL8.0安装步骤.assets/4db798fd5c044e828df9b15efc109a53.png)
+![img](mysql8-install.assets/4db798fd5c044e828df9b15efc109a53.png)

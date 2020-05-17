@@ -1,9 +1,4 @@
-[toc]
-
-{{toc}} => left aligned toc
-
-
-[^1]: This is a footnote.
+[TOC]
 
 # Docker基本命令
 
